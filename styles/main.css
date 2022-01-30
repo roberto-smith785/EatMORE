@@ -1,0 +1,448 @@
+body {}
+
+.navbar-brand {
+    letter-spacing: -0.1rem !important;
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+.call-btn {
+    position: relative;
+    padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    background: white;
+    border: 0.1rem solid white;
+    transition: all 0.25s;
+}
+
+.call-btn a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.call-btn:hover {
+    background: #212529;
+    color: white;
+}
+
+.call-btn:hover .call-btn a:hover {
+    color: white;
+}
+
+.call-btn a:hover {
+    color: white;
+}
+
+.call-btn:hover .call-icon {
+    background: #0d0f10;
+}
+
+.call-icon {
+    position: absolute;
+    background: #212529;
+    width: 2.4rem;
+    height: 2.4rem;
+    top: 50%;
+    right: 5px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transform: translateY(-50%);
+}
+
+.phone-icon {
+    height: 1.5rem;
+}
+
+.phone-icon path {
+    fill: white;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(141, 141, 141, 0.6), rgba(141, 141, 141, 0.6)), url("../images/vegies.jpg") !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+.hero-content {
+    padding: 5.5rem;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.hero small {
+    color: #e8ebed !important;
+}
+
+.hero-text {
+    padding: 0 5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.hero-btn {
+    color: #fff !important;
+    background-color: #212529 !important;
+    border-color: #212529 !important;
+    transition: all 0.25s !important;
+}
+
+.hero-btn:hover {
+    color: #212529 !important;
+    letter-spacing: 2px;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.about {
+    background-image: linear-gradient(rgba(34, 33, 33, 0.67), rgba(34, 33, 33, 0.67)), url("../images/about-bg.jpg") !important;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+.about-text-container p {
+    color: white;
+    line-height: 1.1;
+}
+
+.meal-type-container {
+    padding: 2rem;
+    margin: 0 0.5rem;
+    min-height: 50vh;
+}
+
+.image {
+    background-position: to center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+
+.img1 {
+    background-image: url("../images/dish.jpg") !important;
+}
+
+.img2 {
+    background-image: url("../images/meat.jpg") !important;
+    margin-top: 2.5rem;
+}
+
+.meal-text-container {
+    display: grid;
+    padding: 2rem;
+    place-content: center;
+}
+
+
+
+.tab-pane {
+    min-height: 50vh;
+}
+
+.menu-section-container {
+    background-color: white !important;
+}
+
+.menu-content-container .nav-tabs {
+    position: relative;
+}
+
+.menu-section-container h1,
+.menu-section-container p {
+    color: #212529 !important;
+}
+
+.menu-content-container .nav-link {
+    color: #424344 !important;
+    font-weight: 600;
+}
+
+.menu-content-container .nav-link:hover {
+    color: #495057 !important;
+}
+
+.menu-content-container td {
+    color: white !important;
+}
+
+#starter {
+    background-image: linear-gradient(rgba(141, 141, 141, 0.6), rgba(141, 141, 141, 0.6)), url("../images/starter-bg.jpg") !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+#main {
+    background-image: linear-gradient(rgba(141, 141, 141, 0.6), rgba(141, 141, 141, 0.6)), url("../images/main-bg.jpg") !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+#dessert {
+    background-image: linear-gradient(rgba(141, 141, 141, 0.6), rgba(141, 141, 141, 0.6)), url("../images/dessert-bg.jpg") !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+.our-team {
+    background-image: linear-gradient(rgba(141, 141, 141, 0.6), rgba(141, 141, 141, 0.6)), url("../images/our_team_bg.jpg") !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+.img-team {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+}
+
+.team-member {
+    text-align: center;
+    color: white;
+}
+
+.team-heading {
+    text-align: center !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.burger-container {
+    background-image: linear-gradient(transparent, rgba(34, 31, 31, 0.788)), url("../images/bg-burger.jpg") !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2rem;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+.burger-container .container {
+    display: grid;
+    place-content: center;
+    padding: 5rem;
+    color: white;
+}
+
+.testimonials-name-container p{
+	margin-bottom:5rem;
+}
+.testimonials .carousel-indicators [data-bs-target]{
+box-sizing: content-box;
+flex: 0 1 auto;
+width: 20px;
+height: 20px;
+padding: 0;
+margin-right: 3px;
+border-radius: 50%;
+margin-left: 3px;
+text-indent: -999px;
+cursor: pointer;
+background-color: black !important;
+background-clip: padding-box;
+border: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+opacity: .5;
+transition: opacity .6s ease;
+}
+.testimonials .carousel-indicators .active{
+	opacity:1;
+}
+
+.testimonial-image-container img{
+	width: 200px !important;
+    height: 200px !important;
+    border: 3px solid #212529 !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+.previous-icon, .next-icon{
+	width:40%;
+}
+
+/* drinks page styles */
+
+.beers-container {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.986)), url("../images/beers-bg.jpg") !important;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+    display: grid;
+    place-content: center;
+    color: white !important;
+}
+.beers-container figure{
+    padding: 5rem !important;
+}
+.drink-img{
+	width:350px;
+	height:450px ;
+	border-radius:25px;
+	object-fit:cover;
+}
+.image-margin-top{
+	margin-top:-11rem !important;
+}
+
+
+/* Small devices (phones, 300px and up) */
+
+@media (min-width: 300px) {
+    .hero-content {
+        padding: 1rem;
+    }
+    .hero-text {
+        padding: 0 0.5rem;
+    }
+    .about .row {}
+    .meal-type-container {
+        padding: 0.8rem;
+        margin: 0rem;
+        min-height: 50vh;
+    }
+    .img2 {
+        margin-left: -1rem;
+    }
+    .menu-section-container .tab-content {
+        padding: 1rem 0 !important;
+    }
+    .menu-content-container .con {
+        padding: 0 !important;
+    }
+    .burger-container .container {
+        padding: 4rem 0 !important;
+    }
+    .drink-hero-img{
+        width: 350px;
+        height: 400px;
+        object-fit: cover;
+        transform: rotate(342deg);
+    }
+    .drinks-row-img{
+        width:350px;
+        height:400px;
+        object-fit:cover;
+    }
+	.drink-img{
+		width:200px ;
+		height:250px ;
+		border-radius:25px;
+		object-fit:cover;
+	}
+	.image-margin-top{
+		margin-top:0 !important;
+	}
+    .beers-container figure{
+        padding: 0 !important;
+    }
+    .drink-hero-img {
+        width: 222px;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .hero-content {
+        padding: 2.5rem;
+    }
+    .hero-text {
+        padding: 0 2rem;
+    }
+    .about .row {}
+    .meal-type-container {
+        padding: 1rem;
+        margin: 0rem;
+        min-height: 50vh;
+    }
+	.operate-time-container .time{
+		margin-right:10rem !important;
+	}
+	.drink-img{
+		width:250px ;
+		height:350px;
+		border-radius:25px;
+		object-fit:cover;
+	}
+	.image-margin-top{
+		margin-top:-1rem !important;
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .hero-content {
+        padding: 5rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+    .meal-ad-container .col-lg-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .about .col-lg-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+	.operate-time-container .time{
+		margin-right:5rem !important;
+	}
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .burger-container h2,
+    .drinks-hero h1 {
+        font-size: 3rem !important;
+    }
+	.operate-time-container .time{
+		margin-right:6rem !important;
+	}
+}
